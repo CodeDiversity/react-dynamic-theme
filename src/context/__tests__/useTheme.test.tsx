@@ -20,9 +20,13 @@ describe("useTheme", () => {
   );
 
   it("throws error when used outside ThemeProvider", () => {
+    const consoleSpy = jest.spyOn(console, "error").mockImplementation();
+
     expect(() => renderHook(() => useTheme())).toThrow(
       "useTheme must be used within a ThemeProvider"
     );
+
+    consoleSpy.mockRestore();
   });
 
   it("returns current theme and theme functions", () => {
