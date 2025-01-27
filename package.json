@@ -1,5 +1,5 @@
 {
-  "name": "theme-package",
+  "name": "react-dynamic-theme",
   "version": "0.1.0-beta.1",
   "description": "A lightweight and flexible theme management system for React applications",
   "main": "dist/index.js",
@@ -35,12 +35,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/theme-package.git"
+    "url": "git+https://github.com/CodeDiversity/react-dynamic-theme.git"
   },
-  "bugs": {
-    "url": "https://github.com/yourusername/theme-package/issues"
-  },
-  "homepage": "https://github.com/yourusername/theme-package#readme",
+  "homepage": "https://github.com/CodeDiversity/react-dynamic-theme#readme",
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
